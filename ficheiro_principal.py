@@ -9,7 +9,7 @@ import streamlit as st
 
 #st.title("Hello Heidi Sousa")#
 
-
+### Importar pacotes ###
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd 
@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
-
+### Criar sumario ##
 with st.sidebar:
     escolha = option_menu(
         "Navegação", ["Iniciar", "Editar", "Salvar", "Enviar"],
@@ -77,4 +77,5 @@ if escolha == "Enviar":
     
 
     
+
 
