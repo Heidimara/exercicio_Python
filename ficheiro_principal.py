@@ -61,6 +61,8 @@ if escolha == "Salvar":
     index=["Estocolmo", "Londres", "Roma", "Paris"],  # índice
     name="População"
         )
+    s
+    
     fig, axes = plt.subplots(1, 4, figsize=(12, 3))
     s.plot(ax=axes[0], kind='line', title='linha')
     s.plot(ax=axes[1], kind='bar', title='linha')
@@ -75,3 +77,4 @@ if escolha == "Enviar":
     
 
     
+
